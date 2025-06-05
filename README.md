@@ -1,17 +1,17 @@
 # Lost and Found System – Backend (Spring Boot)
 
-This is the backend component of the **Lost and Found Management System** developed as part of the **CMJD coursework** (Batch 108/109). It provides RESTful APIs for authentication, item management, and claim processing, secured with JWT and role-based access.
 
 ---
 
 ## 🚀 Technologies Used
 
 - Java 21
-- Spring Boot
 - Spring Data JPA (Hibernate)
 - Spring Security (JWT)
 - MySQL
 - Maven
+- Spring Boot
+
 
 ---
 
@@ -104,23 +104,8 @@ jwt.expiration=86400000
 | Secure endpoints by role              | ✅ Done |
 | Entity relationships mapped           | ✅ Done |
 
----
 
-## 📝 Coursework Reference
 
-**Assignment**: Backend Development  
-**Framework**: Spring Boot + MySQL  
-**Course**: CMJD – Comprehensive Master Java Developer  
-**Batch**: 108 / 109
-
----
-
-## 🧪 Testing
-
-Use Postman or your React frontend (`localhost:3000`) to test endpoints.  
-All routes require a valid JWT in `Authorization: Bearer <token>` header.
-
----
 
 ## 📦 Deployment (Optional)
 
